@@ -6,8 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url('assets/img/basic/favicon.ico') ?>" type="image/x-icon">
+    <script src="<?php echo base_url('assets/js/utilities.js') ?>" ></script>
     <title>Paper</title>
-    <!-- CSS -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/app.css') ?>">
     <style>
         .loader {
@@ -25,6 +25,10 @@
             position: absolute;
             top: 50%;
             left: 50%;
+        }
+
+        .select2-container--default .select2-search--dropdown::before {
+            content: "" !important;
         }
     </style>
     <!-- Js -->

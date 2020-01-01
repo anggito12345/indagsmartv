@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "nama": "Aban Saiful Miqdar",
+        "alamat": "Jl. Mentari Kenjeran Tim. IV Blok BB No.4",
+        "hp": "087851423695",
+        "telp": "",
+        "keluhan": "UD Surya jaya Pelayanan kurang memadai",
+        "tgl_keluhan": "today",
+        "tgl_tindak_lanjut": "",
+        "tindak_lanjut": "",
+        "status": "Proses",
+        "email": "aban02@gmail.com"
+    },
+    {
+        "id": 2,
+        "nama": "Achmad Sukron",
+        "alamat": "Jl. Griyo Mapan Utara IV A",
+        "hp": "08283390410",
+        "telp": "",
+        "keluhan": "Ditambahkan konsumsi",
+        "tgl_keluhan": "yesterday",
+        "tgl_tindak_lanjut": "",
+        "tindak_lanjut": "",
+        "status": "Selesai",
+        "email": "achmadsukron1980@yahoo.com"
+    },
+    {
+        "id": 3,
+        "nama": "Abdullah Faqih",
+        "alamat": "Griya Permata Hijau D-2 Candi Sidoarjo",
+        "hp": "0816538210",
+        "telp": "",
+        "keluhan": "Toko Mebel barang yang datang tidak sesuai",
+        "tgl_keluhan": "today",
+        "tgl_tindak_lanjut": "",
+        "tindak_lanjut": "",
+        "status": "Daftar",
+        "email": "pandafaqih@rocketmail.com"
+    }
+]

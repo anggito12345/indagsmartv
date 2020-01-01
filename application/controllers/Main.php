@@ -97,7 +97,7 @@ class Main extends CI_Controller {
 	}
 	public function profile()
 	{
-		$this->data['konten'] = 'panel-page-profile.html';
+	  $this->data['konten'] = 'panel-page-profile.html';
       $this->load->view('_layout/master', $this->data);
 	}
 	public function inbox()
@@ -105,6 +105,29 @@ class Main extends CI_Controller {
 		$this->data['konten'] = 'panel-page-inbox.html';
       $this->load->view('_layout/master', $this->data);
 	}
+
+	public function sipermen() {
+		$this->data['konten'] = 'sipermen.php';
+		$this->load->view('_layout/master', $this->data);
+	}
+
+	public function siki() {
+		$this->data['konten'] = 'siki.php';
+		$this->load->view('_layout/master', $this->data);
+	}
+
+	public function giis() {
+		$this->data['konten'] = 'giis.php';
+		$this->load->view('_layout/master', $this->data);
+	}
+
+	public function sikapd() {
+		$this->data['konten'] = 'sikapd.php';
+		$this->load->view('_layout/master', $this->data);
+	}
+
+
+
 	public function panel7_inbox()
 	{
 		$this->data['konten'] = 'panel7-inbox.html';

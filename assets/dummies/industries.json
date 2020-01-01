@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "id_kota": 2,
+      "nama": "PT Sandai Farma",
+      "no_telp": "031-3894545",
+      "alamat": "Jl Kenjeran no 401-B, Surabaya",
+      "foto_gedung": "https://img.manufakturindo.com/company/1519894227sandai.png",
+      "latitude" : -7.247122,
+      "longitude" : 112.777011
+    },
+    {
+      "id": 2,
+      "id_kota": 2,
+      "nama": "PT. Interbat Pharmaceutical Industry",
+      "alamat": "Jl. Mampang Prapatan Raya No. 81 Jakarta 12790, Indonesia",
+      "no_telp": "021-79192000",
+      "foto_gedung": "https://img.manufakturindo.com/thumbnails/thumbnail-company-1519893289interbat.png",
+      "latitude" : -6.244972,
+      "longitude" : 106.825567
+    },
+    {
+      "id": 3,
+      "id_kota": 1,
+      "nama": "PT. Toyota Boshoku Indonesia",
+      "alamat": "Kyai Tambak Deres 94 B.jl, Surabaya, Jawa Timur",
+      "no_telp": "38107",
+      "foto_gedung": "https://img.manufakturindo.com/thumbnails/thumbnail-company-1519115673pt._toyota_boshoku_indonesia.png",
+      "latitude" : -7.231932,
+      "longitude" : 112.779333
+    },
+    {
+      "id": 4,
+      "id_kota": 3,
+      "nama": "INDO SURYA, UD",
+      "alamat": "Ds. Sawo Cangkring Rt. 01/01, Sidoarjo, Jawa Timur",
+      "no_telp": "031 8833601",
+      "foto_gedung": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+      "latitude" : -7.415942,
+      "longitude" : 112.652539
+    },
+    {
+      "id": 5,
+      "id_kota": 1,
+      "nama": "INDO SURYA",
+      "alamat": "Kalimas Timur 144, Jl, Surabaya, Jawa Timur",
+      "no_telp": "3551523",
+      "foto_gedung": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+      "latitude" : -7.229136,
+      "longitude" : 112.738376
+    }
+]

@@ -42,7 +42,7 @@
                     <li><a href="<?php echo base_url()?>" ><i class="icon icon-folder5"></i>Dashboard Utama</a>
                     </li>
                    
-                    </li>
+                    <!-- </li>
                     <li><a href="<?php echo base_url('main/dashboard2')?>"><i class="icon icon-folder5"></i>Panel Dashboard 2</a>
                     </li>
                     <li><a href="<?php echo base_url('main/dashboard3')?>"><i class="icon icon-folder5"></i>Panel Dashboard 3</a>
@@ -57,10 +57,34 @@
                     <li><a href="<?php echo base_url('main/dashboard8')?>"><i class="icon icon-folder5"></i>Panel Dashboard 8</a></li>
                     <li><a href="<?php echo base_url('main/dashboard9')?>"><i class="icon icon-folder5"></i>Panel Dashboard 9</a></li>
                     <li><a href="<?php echo base_url('main/dashboard10')?>"><i class="icon icon-folder5"></i>Panel Dashboard 10</a></li>
-                    <li><a href="<?php echo base_url('main/dashboard11')?>"><i class="icon icon-folder5"></i>Panel Dashboard 11</a></li>
+                    <li><a href="<?php echo base_url('main/dashboard11')?>"><i class="icon icon-folder5"></i>Panel Dashboard 11</a></li> -->
                 </ul>
+                <li>
+                    <a href="<?php echo base_url('main/siki')?>">
+                        <i class="icon icon-brightness_auto light-blue-text s-14"></i>
+                        <span>SIKI</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo base_url('main/giis')?>">
+                        <i class="icon icon-brightness_auto light-blue-text s-14"></i>
+                        <span>GIIS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo base_url('main/sikapd')?>">
+                        <i class="icon icon-brightness_auto light-blue-text s-14"></i>
+                        <span>SIKAPD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo base_url('main/sipermen')?>">
+                        <i class="icon icon-brightness_auto light-blue-text s-14"></i>
+                        <span>SIPERMEN</span>
+                    </a>
+                </li>
             </li>
-            <li class="treeview"><a href="#">
+            <!-- <li class="treeview"><a href="#">
                 <i class="icon icon icon-package blue-text s-18"></i>
                 <span>Harga Barang</span>
                 <span class="badge r-3 badge-primary pull-right">4</span>
@@ -320,7 +344,7 @@
                     </a>
                     </li>
                 </ul>
-            </li>
+            </li> -->
         </ul>
     </section>
 </aside>
