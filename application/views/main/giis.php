@@ -61,7 +61,7 @@
     async function getLocation(callback) {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(callback);
-            if (map === null) {
+            if (map == null) {
                 callback({
                     coords: {
                         latitude: -6.226998,
