@@ -2,8 +2,8 @@
 <div class="page has-sidebar-left">
     <div class="container-fluid animatedParent animateOnce">
         <div class="animated fadeInUpShort my-3">
-            <div class="row">
-                <div class="col-4 pr-0">
+            <div class="row mb-5">
+                <div class="col-12">
                     <label>Kota:</label>
                     <select class="custom-select select2-kota" required>
                     </select>
@@ -13,7 +13,10 @@
                     </select>
                     
                 </div>
-                <div class="col-8 pr-0 map-container w-100 mh-100">
+            </div>
+            <div class="row">
+                
+                <div class="col-12  map-container w-100 mh-100">
                     <div id="map"></div>
                 </div>
                  

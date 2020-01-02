@@ -1,0 +1,12 @@
+[
+    {
+        "username" : "admin",
+        "password" : "admin",
+        "foto": "https://media.istockphoto.com/photos/focusing-at-you-picture-id468662696"
+    },
+    {
+        "username": "demo",
+        "password": "123456",
+        "foto": "https://media.istockphoto.com/photos/smiling-businessman-at-office-picture-id825082848"
+    }
+]

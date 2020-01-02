@@ -1,5 +1,6 @@
 
 <main>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/app.css') ?>">
     <div id="primary" class="blue4 p-t-b-100 height-full responsive-phone">
         <div class="container">
             <div class="row">
@@ -8,28 +9,26 @@
                 </div>
                 <div class="col-lg-6 p-t-100">
                     <div class="text-white">
-                        <h1>Welcome Back</h1>
-                        <p class="s-18 p-t-b-20 font-weight-lighter">Hey Soldier welcome back signin now there is lot of
-                            new stuff waiting
-                            for you</p>
+                        <h1>INDAGSMARTV</h1>
+                        <p class="s-18 p-t-b-20 font-weight-lighter"></p>
                     </div>
-                    <form action="dashboard.html">
+                    <form action="<?= base_url('login/token') ?>" method="POST">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group has-icon"><i class="icon-envelope-o"></i>
-                                    <input type="text" class="form-control form-control-lg no-b"
-                                           placeholder="Email Address">
+                                    <input type="text" class="form-control form-control-lg no-b" name="username"
+                                           placeholder="Username">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group has-icon"><i class="icon-user-secret"></i>
-                                    <input type="text" class="form-control form-control-lg no-b"
+                                    <input type="text" class="form-control form-control-lg no-b" name="password"
                                            placeholder="Password">
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <input type="submit" class="btn btn-success btn-lg btn-block" value="Let me enter">
-                                <p class="forget-pass text-white">Have you forgot your username or password ?</p>
+                                <input type="submit" class="btn btn-success btn-lg btn-block" value="Login">
+                                <!-- <p class="forget-pass text-white">Have you forgot your username or password ?</p> -->
                             </div>
                         </div>
                     </form>

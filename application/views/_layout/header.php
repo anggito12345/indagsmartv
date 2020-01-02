@@ -30,6 +30,11 @@
         .select2-container--default .select2-search--dropdown::before {
             content: "" !important;
         }
+
+        .user_avatar {
+            width: 80px !important;
+            height: 80px !important;
+        }
     </style>
     <!-- Js -->
     <!--
