@@ -4,7 +4,7 @@
         <div class="animated fadeInUpShort my-3">
             <div class="row mb-5">
                 <div class="col-12">
-                    <label>Kota:</label>
+                    <label>City:</label>
                     <select class="custom-select select2-kota" required>
                     </select>
 
