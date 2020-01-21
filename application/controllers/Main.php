@@ -125,6 +125,11 @@ class Main extends CI_Controller {
 		$this->data['konten'] = 'sikapd.php';
 		$this->load->view('_layout/master', $this->data);
 	}
+	
+	public function eresleting() {
+		$this->data['konten'] = 'eresleting.php';
+		$this->load->view('_layout/master', $this->data);
+	}
 
 
 
