@@ -88,7 +88,7 @@
                 <a href="<?php echo base_url('main/eresleting') ?>">
                     <i class="icon icon-inbox-document
  light-blue-text s-14"></i>
-                    <span>eresleting</span>
+                    <span>ERESLETING</span>
                 </a>
             </li>
             </li>
