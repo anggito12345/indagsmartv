@@ -116,7 +116,7 @@
                             map: map,
                         })
 
-                        setInfoWindowIndustri(newMarker, industri) 
+                        setInfoWindowEresleting(newMarker, industri) 
                        
                         markers.push(newMarker)
                         bounds.extend(newMarker.position)
@@ -162,7 +162,7 @@
             map.setCenter(myLatlng);
             map.setZoom(15);
 
-            setInfoWindowIndustri(newMarker, $('.select2-industri').select2('data')[0])
+            setInfoWindowEresleting(newMarker, $('.select2-industri').select2('data')[0])
         });
     })
 </script>
