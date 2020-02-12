@@ -30,9 +30,74 @@
     </header>
     <div class="container-fluid relative animatedParent animateOnce">
         <div class="tab-content pb-3" id="v-pills-tabContent">
+            <!--Href to application-->
+            <div class="tab-pane animated fadeInUpShort show active" id="v-pills-1">
+                 <div class="row my-3">
+                    <div class="col-md-3 link-app" onclick="toLink('http://sikpd-jatim.com/')" >
+                        <div class="counter-box sikpd-bg r-5 p-3">
+                            <div class="p-4">
+                                <div class="float-right">
+                                    <span class="icon icon-balance-scale text-light-blue s-48"></span>
+                                </div>
+                                <div class="counter-title">SIKPD</div>
+                                <h5 class="sc-counter mt-3"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 link-app" onclick="toLink('http://giis.jatimprov.go.id/')">
+                        <div class="counter-box giis-bg r-5 p-3">
+                            <div class="p-4">
+                                <div class="float-right">
+                                    <span class="icon icon-globe s-48"></span>
+                                </div>
+                                <div class="counter-title ">GIIS</div>
+                                <h5 class="sc-counter mt-3"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 link-app" onclick="toLink('https://siki.jatimprov.go.id/')">
+                        <div class="counter-box siki-bg r-5 p-3">
+                            <div class="p-4">
+                                <div class="float-right">
+                                    <span class="icon icon-industry s-48"></span>
+                                </div>
+                                <div class="counter-title">SIKI</div>
+                                <h5 class="sc-counter mt-3"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 link-app" onclick="toLink('http://sipermen-jatim.com/')">
+                        <div class="counter-box sipermen-bg r-5 p-3">
+                            <div class="p-4">
+                                <div class="float-right">
+                                    <span class="icon icon-shield s-48"></span>
+                                </div>
+                                <div class="counter-title">SIPERMEN</div>
+                                <h5 class="sc-counter mt-3"></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane animated fadeInUpShort show active" id="v-pills-1">
+                 <div class="row my-3">
+                    <div class="col-md-3 link-app" onclick="toLink('https://dashboardexim.disperindag.jatimprov.go.id/')">
+                        <div class="counter-box pepi-bg r-5 p-3">
+                            <div class="p-4">
+                                <div class="float-right">
+                                    <span class="icon icon-import_export s-48"></span>
+                                </div>
+                                <div class="counter-title">PEPI</div>
+                                <h5 class="sc-counter mt-3"></h5>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
             <!--Today Tab Start-->
             <div class="tab-pane animated fadeInUpShort show active" id="v-pills-1">
-                <div class="row my-3">
+                <!--<div class="row my-3">
                     <div class="col-md-3">
                         <div class="counter-box white r-5 p-3">
                             <div class="p-4">
@@ -93,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="row">
                     <div class="col-md-12">
                         <div class="white p-5 r-5">
@@ -665,3 +730,8 @@
         </div>
     </div>
 </div>
+<script>
+    function toLink(link) {
+        window.open(link)
+    }
+</script>

@@ -6,12 +6,13 @@
                 <div class="col-12">
                     <label>Kota:</label>
                     <select class="custom-select select2-kota" required>
-                    </select>
-
-                    <label>Industri:</label>
-                    <select class="custom-select select2-industri" required>
-                    </select>
-                    
+                        <?php 
+                            foreach ($data_dd_kabupaten as $kab) {
+                                # code...
+                                echo "<option value='".$kab->id."'>".$kab->kab_kota."</option>";
+                            }
+                        ?>
+                    </select>                
                 </div>
             </div>
             <div class="row">
@@ -79,33 +80,45 @@
 
     $(document).ready(() => {
         $('.select2-kota').select2({
-            ajax: {
-                url: '<?= base_url('assets/dummies/cities.json'); ?>?_=' + new Date().getTime(),
-                dataType: 'json',
-                processResults: function (data) {
-                // Transforms the top-level key of the response object from 'items' to 'results'
-                    return {
-                        results: data
-                    };
-                }
-            }
+            // ajax: {
+            //     url: '<?= base_url('assets/dummies/cities.json'); ?>?_=' + new Date().getTime(),
+            //     dataType: 'json',
+            //     processResults: function (data) {
+            //     // Transforms the top-level key of the response object from 'items' to 'results'
+            //         return {
+            //             results: data
+            //         };
+            //     }
+            // }
         })
 
         $('.select2-kota').on('change', function (e) {
             // Do something
+            
+            let formData = new FormData();
+            formData.append('kabupaten', $('.select2-kota').select2('val'));
             $('.select2-industri').val('')
             $('.select2-industri').trigger('change')
             $.ajax({
-                url: '<?= base_url('assets/dummies/industries.json'); ?>?_=' + new Date().getTime(),
+                url: 'http://giis.jatimprov.go.id/index.php/web-service/get-data',                
+                METHOD: 'GET',
                 dataType: 'json',
+                contentType: 'application/json; charset=utf-8',
+                data: {
+                    kabupaten:  $('.select2-kota').select2('val')
+                },
+                complete: (data, d) => {
+                    console.log('test2')
+                    console.log(d, 'info')
+                },
+                error: (data) => {
+                    console.log('test3')
+                    console.log(data, 'info')
+                },
                 success: function (data) {
                 // Transforms the top-level key of the response object from 'items' to 'results'
-                    let allIndustries = data.map((d) => {
-                        d.text = d.nama
-                        return d
-                    }).filter((d) => {
-                        return d.id_kota == $('.select2-kota').select2('val')
-                    })
+                    let allIndustries = data;
+                    console.log(allIndustries, 'info')
 
                     bounds = new google.maps.LatLngBounds();
 

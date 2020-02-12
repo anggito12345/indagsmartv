@@ -19,6 +19,12 @@ class Main extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
+	public function __construct() {
+		parent::__construct();
+
+		//$this->load->database();
+	}
+
 	// MAIN NAVIGATION
 	public function index()
 	{
@@ -27,7 +33,8 @@ class Main extends CI_Controller {
 	}
 	public function dashboard2()
 	{
-		$this->data['konten'] = 'panel-page-dashboard2.html';
+	  $this->data['konten'] = 'panel-page-dashboard2.html';
+	  $this->data['variable_2'] = 'ini variable 2';
       $this->load->view('_layout/master', $this->data);
 	}
 	public function dashboard3()
@@ -117,7 +124,12 @@ class Main extends CI_Controller {
 	}
 
 	public function giis() {
+		//$query = $this->db->query("SELECT * FROM GISS_mst_kabupaten;");
+
+		
 		$this->data['konten'] = 'giis.php';
+		//$this->data['data_dd_kabupaten'] = $query->result();
+		$this->data['data_dd_kabupaten'] = [];
 		$this->load->view('_layout/master', $this->data);
 	}
 

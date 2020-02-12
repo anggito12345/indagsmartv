@@ -35,6 +35,61 @@
             width: 80px !important;
             height: 80px !important;
         }
+
+
+        /* sikpd theme */
+        .sikpd-bg {
+            background: #1B9BFC !important;             
+        }
+
+        .sikpd-bg * {
+            color: white !important;
+        }
+
+        /* giss theme */
+
+        .giis-bg {
+            background: url('<?php echo base_url('assets/img/apps/giis.png') ?>') center center;
+        }
+
+        .giis-bg * {
+            color: white !important;
+        }
+
+
+        .siki-bg {
+            background: #394263;
+        }
+
+        .siki-bg * {
+            color: white !important;
+        }
+
+
+        .sipermen-bg {
+            background: url('<?php echo base_url('assets/img/apps/sipermen.png') ?>') center bottom;
+            background-size: cover;
+        }
+
+        .sipermen-bg * {
+            color: white !important;
+        }
+
+
+        .pepi-bg {
+            background: url('<?php echo base_url('assets/img/apps/pepi.png') ?>') center bottom;
+            background-size: cover;
+        }
+
+        .pepi-bg * {
+            color: white !important;
+        }
+
+        .link-app {
+            font-weight: 600;
+            cursor:pointer;
+        }
+
     </style>
     <!-- Js -->
     <!--
